@@ -42,7 +42,7 @@
 .projects__img {
   height: 320px;
   width: 500px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 16px;
   border: 2px solid #0421c4;
 }

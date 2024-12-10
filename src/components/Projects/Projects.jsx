@@ -1,6 +1,8 @@
 import "./Projects.css";
 
 import pic from "../../assets/thumbnail-standin.png";
+import ATUS from "../../assets/atus-imgs/Desktop-View.png";
+import WTWR from "../../assets/wtwr-imgs/full-scrn/full_screen_signed_out_homepage.png";
 
 const Projects = () => {
   return (
@@ -18,7 +20,7 @@ const Projects = () => {
         <li className="projects__project">
           <h4 className="projects__title">What To Wear (WTWR)</h4>
           <img
-            src={pic}
+            src={WTWR}
             alt="-project name- thumbnail"
             className="projects__img"
           />
@@ -26,7 +28,7 @@ const Projects = () => {
         <li className="projects__project">
           <h4 className="projects__title">Around the U.S.</h4>
           <img
-            src={pic}
+            src={ATUS}
             alt="-project name- thumbnail"
             className="projects__img"
           />
