@@ -1,13 +1,15 @@
-import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
-      <p>NavLink</p>
-      <p>NavLink</p>
-      <p>NavLink</p>
-      <p>NavLink</p>
-      <p>NavLink</p>
+    <header className="header">
+      <nav className="header__navbar">
+        <p className="header__link-text">NavLink</p>
+        <p className="header__link-text">NavLink</p>
+        <p className="header__link-text">NavLink</p>
+        <p className="header__link-text">NavLink</p>
+        <p className="header__link-text">NavLink</p>
+      </nav>
     </header>
   );
 };
