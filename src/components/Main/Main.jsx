@@ -1,14 +1,13 @@
-import React from "react";
+import "./Main.css";
+
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
-import About from "../About/About";
 import UVP from "../UVP/UVP";
 
 const Main = () => {
   return (
-    <section>
+    <section className="main">
       <UVP />
-      <About />
       <Skills />
       <Projects />
     </section>

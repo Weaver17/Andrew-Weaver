@@ -1,0 +1,39 @@
+.skills {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.skills__header {
+  margin: 0 0 20px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  justify-self: center;
+}
+
+.skills__container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__skill-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__skill {
+  height: 100px;
+  width: 100px;
+}
+
+.skills__skill-name {
+  font-size: 20px;
+  line-height: 24px;
+}
