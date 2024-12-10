@@ -14,8 +14,8 @@
   margin: 0;
   padding: 0;
   height: 300px;
-  width: 350px;
-  border: solid 2px rgba(0, 0, 0, 0.6);
+  width: 335px;
+  border: solid 3px #0421c4;
   border-radius: 50%;
   position: absolute;
   top: 20px;
