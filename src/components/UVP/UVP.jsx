@@ -1,12 +1,12 @@
 import "./UVP.css";
 
-import pic from "../../assets/thumbnail-standin.png";
+import profilePic from "../../assets/ProfilePic.jpg";
 
 const UVP = () => {
   return (
     <div className="uvp">
       <div className="uvp__portrait-container">
-        <img src={pic} alt="My Face" className="uvp__portrait" />
+        <img src={profilePic} alt="My Face" className="uvp__portrait" />
       </div>
       <div className="uvp__text-container">
         <h1 className="uvp__greeting">Hello! My Name is Andrew Weaver</h1>
