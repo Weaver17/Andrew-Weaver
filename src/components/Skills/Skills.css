@@ -14,7 +14,7 @@
 
 .skills__container {
   display: flex;
-  gap: 24px;
+  gap: 44px;
   flex-wrap: wrap;
   justify-content: center;
 }
